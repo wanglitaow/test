@@ -1,0 +1,87 @@
+<?php
+/**
+ * 外部域名配置
+ * User: 洪明伟
+ * Date: 2015/3/25
+ * Time: 11:26
+ */
+
+return array(
+    'root'      => PAF_CLOUD.'.qa.anhouse.com.cn',
+    'static'    => 'static.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'www'       => 'www.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'xf'        => 'xf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'esf'       => 'esf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hft'       => 'hft.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'agent'     => 'agent.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'zf'        => 'zf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hw'        => 'hw.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'event'     => 'event.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'member'    => 'member.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'pay'       => 'pay.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'gold'      => 'gold.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hfb'       => 'hfb.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hfd'       => 'hfd.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'zc'        => 'zc.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hkagent'   => 'hkagent.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'steward'   => 'steward.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'manage'    => 'manage.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'permission'=> 'permission.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'overseas'  => 'overseas.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'fin'       => 'fin.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'hgj'       => 'hgj.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'info'      => 'info.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'bis'       => 'bis.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'm'         => 'm.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'shorturl'  => 's.anhouse.com',
+    'download'  => 'd.anhouse.com',
+    'upd'       => 'upd.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+    'wall'      => 'wall.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+
+    //域名配置
+    'domain'    => array(
+        'root'      => PAF_CLOUD.'.qa.anhouse.com.cn',
+        'static'    => 'static.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'www'       => 'www.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'xf'        => 'xf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'esf'       => 'esf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hft'       => 'hft.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'agent'     => 'agent.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'zf'        => 'zf.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hw'        => 'hw.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'event'     => 'event.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'member'    => 'member.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'pay'       => 'pay.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'gold'      => 'gold.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hfb'       => 'hfb.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hfd'       => 'hfd.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'zc'        => 'zc.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hkagent'   => 'hkagent.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'steward'   => 'steward.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'manage'    => 'manage.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'permission'=> 'permission.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'overseas'  => 'overseas.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'fin'       => 'fin.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'hgj'       => 'hgj.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'info'      => 'info.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'bis'       => 'bis.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'm'         => 'm.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'shorturl'  => 's.anhouse.com',
+        'download'  => 'd.anhouse.com',
+        'upd'       => 'upd.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'wall'      => 'wall.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'goldh5'    => 'gold.m.'.PAF_CLOUD.'.qa.anhouse.com.cn' ,
+        'file'      => 'file.'.PAF_CLOUD.'.qa.anhouse.com.cn',
+        'cookie'    => '.qa.anhouse.com.cn',
+    ),
+
+    //HTTPS配置
+    'secure' => array(
+        'static'    => false,
+        'member'    => false,
+        'pay'       => true,
+        'hfb'       => true,
+        'upd'       => true,
+        'file'      => true,
+    ),
+);
